@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: repeat(8, 50px);
+  grid-template-columns: repeat(8, 50px);
+  justify-content: center;
+  gap: 1px 1px;
+  background-color: burlywood;
+}
+
+.container .square {
+  background-color: cornflowerblue;
+}
+
+.container .square:hover {
+  background-color: blue;
+}
